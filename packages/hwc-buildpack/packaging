@@ -1,0 +1,2 @@
+set -e -x
+cp hwc-buildpack/hwc_buildpack-cached-*.zip ${BOSH_INSTALL_TARGET}

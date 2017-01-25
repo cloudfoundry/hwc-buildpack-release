@@ -1,0 +1,9 @@
+---
+name: hwc-buildpack
+
+templates: {}
+
+packages:
+- hwc-buildpack
+
+properties: {}
