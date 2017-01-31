@@ -1,2 +1,3 @@
 set -e -x
-cp hwc-buildpack/hwc_buildpack-cached-*.zip ${BOSH_INSTALL_TARGET}
+filename=$(basename hwc-buildpack/hwc-buildpack-*.zip)
+cat hwc-buildpack/hwc-buildpack-*.zip > ${BOSH_INSTALL_TARGET}/$filename
