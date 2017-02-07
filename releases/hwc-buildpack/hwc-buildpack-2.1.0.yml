@@ -1,0 +1,19 @@
+name: hwc-buildpack
+version: 2.1.0
+commit_hash: 8fb5538
+uncommitted_changes: false
+jobs:
+- name: hwc-buildpack
+  version: c6cdf8767ffed5a5388b92d513e5182b900b7a31
+  fingerprint: c6cdf8767ffed5a5388b92d513e5182b900b7a31
+  sha1: 1a52a85b0e1733c58c779c00e77967084d100d13
+packages:
+- name: hwc-buildpack
+  version: 9348cdabeea7ee21aa3ebc0e73ef4e805a68d385
+  fingerprint: 9348cdabeea7ee21aa3ebc0e73ef4e805a68d385
+  sha1: a2d838662c6fff24a01e62a7dee4d33d4b83a3b9
+  dependencies: []
+license:
+  version: d42ac5d547fda1b6a40e3b347e20a37ddb788e55
+  fingerprint: d42ac5d547fda1b6a40e3b347e20a37ddb788e55
+  sha1: 05c8779cb162827bc9c13ee27206b402a24cb6b8
