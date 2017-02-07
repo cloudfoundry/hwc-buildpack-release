@@ -1,0 +1,19 @@
+---
+name: install-hwc-buildpack
+templates:
+  run.ps1.erb: bin/run.ps1
+packages:
+  - cf-cli
+  - hwc-buildpack
+properties:
+  cf.api_url:
+    description: "Cloud Foundry API server URL (cloud controller)"
+  cf.admin_username:
+    description: "Username of the admin user"
+  cf.admin_password:
+    description: "Password of the admin user"
+  cf.system_domain:
+    description: "Cloud Foundry system domain, used for the Console application's URL"
+  ssl.skip_cert_verify:
+    description: "when connecting over TLS, don't verify certificates"
+    default: "false"
