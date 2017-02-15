@@ -1,9 +1,8 @@
----
-hwc-buildpack/hwc-buildpack-cached-v2.1.0.zip:
-  size: 1865738
-  object_id: ae84034c-85f4-4fb1-46fe-805c2e8f3adb
-  sha: 490e716d834b21ae54494cc3b8a6e50222773aec
 cf-cli/cf-cli_6.23.1_winx64.zip:
+  size: 6759874
   object_id: 714004cc-3db1-495b-b4a2-434153dc2432
   sha: 22c09fbaaaed4ed305896de28a3c1bf9b346ff93
-  size: 6759874
+hwc-buildpack/hwc-buildpack-cached-v2.1.1.zip:
+  size: 3199765
+  object_id: 9fdc1c41-cce6-498d-5c7f-b7b609765fbb
+  sha: a36e44dcba8b4b58ecd4bad99d4dadbe87354804
