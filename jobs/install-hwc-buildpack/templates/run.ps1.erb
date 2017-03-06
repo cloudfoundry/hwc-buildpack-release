@@ -3,10 +3,10 @@ trap { $host.SetShouldExit(1) }
 
 function runCf {
   param(
-    [string]$command
+    [string[]]$command
   )
 
-  cf $command
+  cf @command
   if ($LASTEXITCODE -ne 0) {
     Exit $LASTEXITCODE
   }
@@ -19,12 +19,12 @@ $env:API_URL="<%= p("cf.api_url") %>"
 $env:SKIP_SSL_VALIDATION="<%= p("ssl.skip_cert_verify") %>"
 
 if ( $env:SKIP_SSL_VALIDATION -eq "true" ) {
-  runCf "api $env:API_URL --skip-ssl-validation"
+  runCf "api", "$env:API_URL", "--skip-ssl-validation"
 } else {
-  runCf "api $env:API_URL"
+  runCf "api", "$env:API_URL"
 }
 
-runCf "auth $env:CF_USERNAME $env:CF_PASSWORD"
+runCf "auth", "$env:CF_USERNAME", "$env:CF_PASSWORD"
 
 $hwcBuildpack = Get-Item("C:\var\vcap\packages\hwc-buildpack\hwc*.zip")
 
@@ -44,9 +44,9 @@ foreach ($bp in $buildpacks) {
 }
 
 if (-not $hasBuildpack) {
-  runCf "create-buildpack hwc_buildpack $hwcBuildpack 1 --enable"
+  runCf "create-buildpack", "hwc_buildpack", "$hwcBuildpack", "1", "--enable"
 } elseif ($unlocked) {
-  runCf "update-buildpack hwc_buildpack -p $hwcBuildpack"
+  runCf "update-buildpack", "hwc_buildpack", "-p", "$hwcBuildpack"
 } else {
   Write-Host "HWC Buildpack is locked, skipping update"
 }
