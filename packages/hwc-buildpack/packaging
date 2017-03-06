@@ -1,2 +1,3 @@
-$hwcBuildpack = Get-Item("hwc-buildpack\hwc*.zip")
-Copy-Item $hwcBuildpack "${env:BOSH_INSTALL_TARGET}"
+set -e -x
+filename=$(basename hwc-buildpack/hwc-buildpack-*.zip)
+cat hwc-buildpack/hwc-buildpack-*.zip > ${BOSH_INSTALL_TARGET}/$filename

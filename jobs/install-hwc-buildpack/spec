@@ -4,7 +4,7 @@ templates:
   run.ps1.erb: bin/run.ps1
 packages:
   - cf-cli
-  - hwc-buildpack
+  - hwc-buildpack-windows
 properties:
   cf.api_url:
     description: "Cloud Foundry API server URL (cloud controller)"
