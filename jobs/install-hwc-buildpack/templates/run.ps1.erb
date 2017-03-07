@@ -26,7 +26,7 @@ if ( $env:SKIP_SSL_VALIDATION -eq "true" ) {
 
 runCf "auth", "$env:CF_USERNAME", "$env:CF_PASSWORD"
 
-$hwcBuildpack = Get-Item("C:\var\vcap\packages\hwc-buildpack\hwc*.zip")
+$hwcBuildpack = Get-Item("C:\var\vcap\packages\hwc-buildpack-windows\hwc*.zip")
 
 $hasBuildpack = $false
 $unlocked = $false
