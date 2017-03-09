@@ -2,4 +2,4 @@
 name: hwc-buildpack
 
 files:
-- hwc-buildpack/hwc-buildpack-*.zip
+- hwc-buildpack/hwc_buildpack-*.zip
