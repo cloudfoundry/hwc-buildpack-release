@@ -1,0 +1,34 @@
+---
+packages:
+- name: cf-cli
+  version: 73ae3f68c036049f186a23c0bbfd105c51854484
+  fingerprint: 73ae3f68c036049f186a23c0bbfd105c51854484
+  sha1: e4c7d67ad682a430ae663dc99527c884646011e3
+  dependencies: []
+- name: hwc-buildpack-windows
+  version: d8caa890e9e6d5a56b4ef195bbe527f37aada53c
+  fingerprint: d8caa890e9e6d5a56b4ef195bbe527f37aada53c
+  sha1: ac3a732c82d56620dcd177ef694e90f153730ef2
+  dependencies: []
+- name: hwc-buildpack
+  version: 51cc0989a9d579df429e791aa64233f428034ce5
+  fingerprint: 51cc0989a9d579df429e791aa64233f428034ce5
+  sha1: 87186f3697f3c84e6eda0d2dff1533fe9a7093fc
+  dependencies: []
+jobs:
+- name: hwc-buildpack
+  version: e749f2ab9d76c8b5ff0034830e78364337f9857b
+  fingerprint: e749f2ab9d76c8b5ff0034830e78364337f9857b
+  sha1: d20997005c309be0f774f2bde3846019699ae3fd
+- name: install-hwc-buildpack
+  version: ec80b205967eb1a432ad2cb24e4c49294dd8a4ac
+  fingerprint: ec80b205967eb1a432ad2cb24e4c49294dd8a4ac
+  sha1: 45b0db7d7523f5ce38ed41b6aae45a523220d529
+license:
+  version: d42ac5d547fda1b6a40e3b347e20a37ddb788e55
+  fingerprint: d42ac5d547fda1b6a40e3b347e20a37ddb788e55
+  sha1: 05c8779cb162827bc9c13ee27206b402a24cb6b8
+commit_hash: 4e1e4332
+uncommitted_changes: true
+name: hwc-buildpack
+version: 2.3.8
