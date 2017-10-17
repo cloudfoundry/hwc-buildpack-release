@@ -3,7 +3,7 @@ cf-cli/cf-cli_6.23.1_winx64.zip:
   size: 6759874
   object_id: 714004cc-3db1-495b-b4a2-434153dc2432
   sha: 22c09fbaaaed4ed305896de28a3c1bf9b346ff93
-hwc-buildpack/hwc-buildpack-v2.3.10.zip:
-  object_id: f58e1e18-6389-4cb5-a2c9-de1fdefd1279
-  sha: 157d0ed1c79741d8f5624367a10f816a056b71c2
-  size: 2478175
+hwc-buildpack/hwc-buildpack-v2.3.11.zip:
+  object_id: 6c6cbcb3-9b68-48f7-9a3e-065f57e29a07
+  sha: 3805b72a1a5451dd4e44f2fa3f356bf0878ef533
+  size: 2478215
