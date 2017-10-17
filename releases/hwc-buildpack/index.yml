@@ -30,4 +30,6 @@ builds:
     version: 2.3.9
   10618695-d9d4-4707-a6a5-c19b2ac5b018:
     version: 2.3.10
+  da8ff1a8-4df1-4b3b-b2dc-6a734bbc00b5:
+    version: 2.3.11
 format-version: '2'
