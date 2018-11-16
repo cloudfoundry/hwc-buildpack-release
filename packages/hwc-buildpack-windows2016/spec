@@ -1,0 +1,5 @@
+---
+name: hwc-buildpack-windows2016
+
+files:
+- hwc-buildpack/hwc-buildpack-windows2016*.zip
