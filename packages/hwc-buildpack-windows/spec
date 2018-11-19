@@ -1,4 +1,0 @@
----
-name: hwc-buildpack-windows
- files:
-- hwc-buildpack/hwc-buildpack-*.zip

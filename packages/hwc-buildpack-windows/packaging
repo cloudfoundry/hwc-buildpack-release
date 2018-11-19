@@ -1,2 +1,0 @@
-$hwcBuildpack = Get-Item("hwc-buildpack\hwc*.zip")
-Copy-Item $hwcBuildpack "${env:BOSH_INSTALL_TARGET}"
