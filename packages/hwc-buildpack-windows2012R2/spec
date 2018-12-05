@@ -2,4 +2,4 @@
 name: hwc-buildpack-windows2012R2
 
 files:
-- hwc-buildpack/hwc-buildpack-windows2012R2*.zip
+- hwc-buildpack/hwc?buildpack-windows2012R2*.zip
