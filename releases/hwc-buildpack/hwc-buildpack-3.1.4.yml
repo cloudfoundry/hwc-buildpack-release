@@ -1,0 +1,34 @@
+name: hwc-buildpack
+version: 3.1.4
+commit_hash: ed80a8f
+uncommitted_changes: false
+jobs:
+- name: hwc-buildpack
+  version: 040044155609fc86f855eb8ed698c87f492eb2e3
+  fingerprint: 040044155609fc86f855eb8ed698c87f492eb2e3
+  sha1: 6aac86032efa161b1ebb461879b55aa5b45ea6af
+packages:
+- name: cf-cli
+  version: 73ae3f68c036049f186a23c0bbfd105c51854484
+  fingerprint: 73ae3f68c036049f186a23c0bbfd105c51854484
+  sha1: e4c7d67ad682a430ae663dc99527c884646011e3
+  dependencies: []
+- name: hwc-buildpack-windows
+  version: b3947e9dcd67c8a165792cb7887697f43da6e652
+  fingerprint: b3947e9dcd67c8a165792cb7887697f43da6e652
+  sha1: 473d97c825abc9ca81155297bf7c25a8dfffb9fa
+  dependencies: []
+- name: hwc-buildpack-windows2012R2
+  version: f19445a2586000b6c65eea0e919f46355e9a7a9f
+  fingerprint: f19445a2586000b6c65eea0e919f46355e9a7a9f
+  sha1: 8d08406c768c6e499e9a22880e96c1812ed8938d
+  dependencies: []
+- name: hwc-buildpack-windows2016
+  version: 2bbf405a0ab49b9b36fb09e783db0c484407b5bb
+  fingerprint: 2bbf405a0ab49b9b36fb09e783db0c484407b5bb
+  sha1: fd485d010992b0f6ccc02c3770b2824e5fd2409e
+  dependencies: []
+license:
+  version: d42ac5d547fda1b6a40e3b347e20a37ddb788e55
+  fingerprint: d42ac5d547fda1b6a40e3b347e20a37ddb788e55
+  sha1: 05c8779cb162827bc9c13ee27206b402a24cb6b8
