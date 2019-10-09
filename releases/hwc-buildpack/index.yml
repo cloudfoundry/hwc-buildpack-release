@@ -53,6 +53,8 @@ builds:
     version: 2.3.17
   9ad018d9-1e7e-437d-4a9a-40454a147fd7:
     version: 3.1.2
+  9fe5a8c4-fc3a-45f1-6f20-d94f9fffd1ff:
+    version: 3.1.12
   ae5b9ad6-3080-4147-6010-bede3b8961c7:
     version: 3.1.7
   b127dead-2baf-4dd7-659c-c579b1253038:
