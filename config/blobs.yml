@@ -2,15 +2,15 @@ cf-cli/cf-cli_6.23.1_winx64.zip:
   size: 6759874
   object_id: 714004cc-3db1-495b-b4a2-434153dc2432
   sha: 22c09fbaaaed4ed305896de28a3c1bf9b346ff93
-hwc-buildpack/hwc_buildpack-windows-v3.1.13.zip:
-  size: 13219411
-  object_id: 30638501-e8a9-4aa5-7725-2a915148c387
-  sha: sha256:5c58ff6345150d09717019eb9ad567a212b896a1952920b53c93957d783dd8c9
-hwc-buildpack/hwc_buildpack-windows2012R2-v3.1.13.zip:
-  size: 13219432
-  object_id: eb7acec4-5787-4c28-5f1f-a533d3a5846c
-  sha: sha256:625d8889ed9fa347b50b6d27cd6dee666242f7194f6d560d8f25f794d38d4304
-hwc-buildpack/hwc_buildpack-windows2016-v3.1.13.zip:
-  size: 13219413
-  object_id: 83d00c2c-898d-4210-7956-c176f75b00e4
-  sha: sha256:f7d4dd08cc3deba0a860655ecb032015d75b6cb7cb16b7d5398baf146b83ca99
+hwc-buildpack/hwc_buildpack-windows-v3.1.14.zip:
+  size: 13225959
+  object_id: 54e32050-be1d-4034-5b2c-890b6b54aa96
+  sha: sha256:7e964270e02e79d276423f82c9806c79eb14bc0794f4c9796925fd7ad197317a
+hwc-buildpack/hwc_buildpack-windows2012R2-v3.1.14.zip:
+  size: 13225952
+  object_id: 9439adb0-cac9-484d-403d-5bfc351eac73
+  sha: sha256:17b0cbb33239ecd368abd4b26dbc7e12f8bd7d69cc8323fdce88a9a963ec49bd
+hwc-buildpack/hwc_buildpack-windows2016-v3.1.14.zip:
+  size: 13225968
+  object_id: fb488438-1b20-47d6-7464-d7d3f2db4200
+  sha: sha256:426ba1ea442f3f0a482cc85af7686a0423ca122b8db99191f458f629da2ab12b
