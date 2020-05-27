@@ -6,6 +6,5 @@ templates: {}
 packages:
 - hwc-buildpack-windows
 - hwc-buildpack-windows2016
-- hwc-buildpack-windows2012R2
 
 properties: {}

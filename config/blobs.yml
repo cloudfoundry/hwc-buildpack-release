@@ -6,10 +6,6 @@ hwc-buildpack/hwc_buildpack-windows-v3.1.14.zip:
   size: 13225959
   object_id: 54e32050-be1d-4034-5b2c-890b6b54aa96
   sha: sha256:7e964270e02e79d276423f82c9806c79eb14bc0794f4c9796925fd7ad197317a
-hwc-buildpack/hwc_buildpack-windows2012R2-v3.1.14.zip:
-  size: 13225952
-  object_id: 9439adb0-cac9-484d-403d-5bfc351eac73
-  sha: sha256:17b0cbb33239ecd368abd4b26dbc7e12f8bd7d69cc8323fdce88a9a963ec49bd
 hwc-buildpack/hwc_buildpack-windows2016-v3.1.14.zip:
   size: 13225968
   object_id: fb488438-1b20-47d6-7464-d7d3f2db4200
