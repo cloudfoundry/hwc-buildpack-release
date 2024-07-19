@@ -5,6 +5,5 @@ templates: {}
 
 packages:
 - hwc-buildpack-windows
-- hwc-buildpack-windows2016
 
 properties: {}

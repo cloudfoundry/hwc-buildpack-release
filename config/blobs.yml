@@ -6,7 +6,3 @@ hwc-buildpack/hwc_buildpack-windows-v3.1.37.zip:
   size: 6961632
   object_id: 5834794d-8268-4b68-5251-52adcd47a9d1
   sha: sha256:57afa06451f3c181fe8f4118c77d987e22c698cc8b2968331f9e49d201d9615e
-hwc-buildpack/hwc_buildpack-windows2016-v3.1.37.zip:
-  size: 6961633
-  object_id: ade5abaf-e2f7-416b-68a3-caf54f1092c7
-  sha: sha256:4df089ac0694cbaf915b106b2600578bc5661f95662f8145e59352f55bd1b26b
