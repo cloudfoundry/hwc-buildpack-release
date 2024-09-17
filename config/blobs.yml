@@ -1,7 +1,3 @@
-cf-cli/cf7-cli_7.7.13_winx64.zip:
-  size: 15783336
-  object_id: fa411a29-350b-4b68-7226-77ff02e7771c
-  sha: sha256:c22c14f4cf75a02dac06f0a8157a1a049c4862a6565cfff1f445458d9d5827d8
 hwc-buildpack/hwc_buildpack-windows-v3.1.38.zip:
   size: 6964540
   object_id: 5a5a2d0c-0219-4ff3-790f-c7e826eba428
