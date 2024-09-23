@@ -1,8 +1,0 @@
----
-name: cf-cli
-
-dependencies:
-
-files:
-  - cf-cli/cf-cli_6.23.1_winx64.zip
-
