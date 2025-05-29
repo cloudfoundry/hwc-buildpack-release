@@ -95,6 +95,8 @@ builds:
     version: 3.0.0
   b6d6d775-7efd-4a32-4a89-c6dbb312c669:
     version: 3.1.33
+  be23d898-05b5-43db-6e0d-a362371fd549:
+    version: 3.1.44
   be45f9cf-24fa-45b6-42d7-f38ace68dff2:
     version: 3.1.35
   bef36a7b-4863-4830-692b-8d503c5985d8:
