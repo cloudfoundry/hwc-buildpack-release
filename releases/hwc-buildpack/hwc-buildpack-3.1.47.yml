@@ -1,0 +1,21 @@
+name: hwc-buildpack
+version: 3.1.47
+commit_hash: 77ca9ec
+uncommitted_changes: false
+jobs:
+- name: hwc-buildpack
+  version: c8b3f788c87f7375c56d6a1d896bb8ed2833b05bda42484d55936ddb53a01d75
+  fingerprint: c8b3f788c87f7375c56d6a1d896bb8ed2833b05bda42484d55936ddb53a01d75
+  sha1: sha256:1a7801f06e5b876e1b33b67fa2beb8be729c6ddfcc15e3aef0ce7727d388fa3b
+  packages:
+  - hwc-buildpack-windows
+packages:
+- name: hwc-buildpack-windows
+  version: d5be3d30e482f1244b8451aeaa05351e01c5544d4dc77f322dcd397f3af167c8
+  fingerprint: d5be3d30e482f1244b8451aeaa05351e01c5544d4dc77f322dcd397f3af167c8
+  sha1: sha256:8d338f98f9b31b54ed5cfef48db588040b227d39b2e8e2d42c71291416e139f3
+  dependencies: []
+license:
+  version: cdb17ac6ce759ec17dba7714399d6de3112df3c4bc69e0ecac0a2bba6f1915b2
+  fingerprint: cdb17ac6ce759ec17dba7714399d6de3112df3c4bc69e0ecac0a2bba6f1915b2
+  sha1: sha256:e08f88db966859dc52d8eff7175d7bd06d6c723a224f071a8aa6587bfd78c3fe
